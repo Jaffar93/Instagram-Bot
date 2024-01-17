@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6835613843:AAH3ewWYZTNgCKVPWuRufZHDNOLotit5D2o") 
     USER = os.environ.get("INSTAGRAM_USERNAME", "tftufrdd")
     OWNER = os.environ.get("OWNER_ID", "6277020768")
-    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
+    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", "54818875510%3AUaI3ZjfEL64zxu%3A19%3AAYfyq65LPbq1Z-N6XYhoTQXDAfugeKsoea4QNt3qRg")
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
